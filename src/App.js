@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       <div className='heart'>
         <TextBox />
-      </div> 
-     
+      </div>    
     </div>
   );
 }

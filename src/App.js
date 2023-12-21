@@ -8,7 +8,7 @@ function App() {
     <h1>What's in your heart?</h1>
       <div className='heart'>
         <TextBox />
-        <h2>Type in 12 important things{'\n'}in your heart</h2> 
+        <h2>Write the 12 most important {'\n'} things in your heart?</h2> 
       </div>   
     </div>
   );

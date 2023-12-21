@@ -2,13 +2,21 @@
 .board {
     display: grid;
     position: relative;
+    left: 40%;
+    transform: translateX(20%);
+    transform: translateY(19%);
+    z-index: 2;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
+    /* display: grid;
+    position: relative;
     left: 67%;
     transform: translateX(70%);
     transform: translateY(24%);
     z-index: 2;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px; 
+    gap: 5px;  */
   }
   
   .box {

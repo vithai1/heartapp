@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './textbox.css';
 
 const TextBox = () => {
-  const [board, setBoard] = useState(Array(9).fill(''));
+  const [board, setBoard] = useState(Array(12).fill(''));
 
   const handleBoxChange = (index, newText) => {
     const newBoard = [...board];

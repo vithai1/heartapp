@@ -1,11 +1,27 @@
 body {
-    background-color: #C7E6FC; 
+    background-color: #FFFF; 
     margin: 0; 
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
+  h1 {
+    text-align: center;
+    transform: translateX(-10%);
+    font-size: 32px;
+  }
+
+  h2 {
+    text-align: center;
+    transform: translateX(62%);
+    font-size: 22px;
+    position: absolute;
+    bottom: -49%;
+    white-space: pre-line;
+    z-index: 2;
+  }
+
   .heart {
     position: absolute;
     display: flex;

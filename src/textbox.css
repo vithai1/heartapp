@@ -1,0 +1,40 @@
+/* Textbox.css */
+.board {
+    display: grid;
+    position: relative;
+    left: 67%;
+    transform: translateX(70%);
+    transform: translateY(24%);
+    z-index: 2;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px; 
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    background-color: #FFACDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    unicode-bidi: plaintext;
+    direction: ltr;
+    overflow: auto;
+    white-space: pre-wrap;
+  }
+ 
+/*CSS for 12 boxes instead of 9
+/* display: grid;
+    position: relative;
+    left: 38%;
+    transform: translateX(20%);
+    transform: translateY(20%);
+    z-index: 2;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px); */
